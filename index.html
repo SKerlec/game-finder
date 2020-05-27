@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class='search-box'>
+        <h1>Game Finder</h1>
+        <form class='game-search'>
+            <label for='search-text'>Which game would you like to find?</label>
+            <input type='text' placeholder='Type Game Title Here' class='search-text'>
+            <button class='search-submit'>Submit</button>
+        </form>
+    </section>
+    <section class='results-box'>
+        <h2 class='game-title'></h2>
+        <div class='img-info-box'>
+            <div class='img-box'></div>
+            <div class='info-list-box'></div>
+        </div>
+        <div class='similar-games-box'></div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

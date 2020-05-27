@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.search-box {
+    text-align: center;
+    border-bottom: solid black 1.5px;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+.game-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.search-text {
+    margin: 1rem auto;
+}
+
+.search-text, .search-submit {
+    min-width: 20%;
+    text-align: center;
+}
+
+.results-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 95%;
+}
+
+.img-box {
+    width: 40%;
+    text-align: center;
+}
+
+.info-list-box {
+    width: 80%;
+}
+
+.similar-games-box {
+    width: 100%;
+    margin: .5rem auto;
+    text-align: center;
+}
+
+.similar-games-box ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.similar-games-box li {
+    width: 5%;
+    margin: 1rem;
+}
+
+.hide-me {
+    display: none;
+}
+
+@media screen and (min-width: 500px) {
+
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .img-info-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 2em;
+        width: 95%;
+    }
+
+    .img-box {
+        width: 30%;
+    }
+
+    .info-list-box {
+        width: 60%;
+    }
+
+}
