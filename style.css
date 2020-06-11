@@ -48,31 +48,17 @@ label {
 }
 
 .img-box {
-    width: 40%;
+    width: 35%;
     text-align: center;
 }
 
-.info-list-box {
+.results-img {
+    max-width: 100%;
+}
+
+.info-box {
     width: 80%;
-}
-
-.similar-games-box {
-    width: 100%;
-    margin: .5rem auto;
-    text-align: center;
-}
-
-.similar-games-box ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.similar-games-box li {
-    width: 5%;
-    margin: 1rem;
+    overflow: scroll;
 }
 
 .hide-me {
@@ -101,8 +87,9 @@ label {
         width: 30%;
     }
 
-    .info-list-box {
+    .info-box {
         width: 60%;
+        height: 550px;
     }
 
 }
