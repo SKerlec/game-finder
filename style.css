@@ -12,7 +12,8 @@ body {
     text-align: center;
     border-bottom: double rgb(255, 0, 0) 7px;
     padding: 1rem;
-    background-image: url("https://images.alphacoders.com/236/thumb-1920-236891.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), 
+                url("https://images.alphacoders.com/236/thumb-1920-236891.png");
     background-repeat: no-repeat;
     background-position: center;
     color: white;
@@ -103,22 +104,16 @@ label {
 }
 
 .info-box {
-    width: 80%;
+    width: 85%;
     overflow: scroll;
     margin: 0 auto;
-    padding: 1rem;
+    padding: .75rem;
     background-color: rgb(100, 97, 97);
     border: double red 3px;
 }
 
 .hide-me {
     display: none;
-}
-
-@media screen and (min-width: 500px) {
-
-
-
 }
 
 @media screen and (min-width: 800px) {
