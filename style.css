@@ -5,20 +5,50 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgba(0, 0, 0, 0.897);
 }
 
 .search-box {
     text-align: center;
-    border-bottom: solid black 1.5px;
+    border-bottom: double rgb(255, 0, 0) 7px;
     padding: 1rem;
+    background-image: url("https://images.alphacoders.com/236/thumb-1920-236891.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px #f3f3f3;
+}
+
+h2 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+}
+
+h1, h2, label, a {
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+a {
+    color: rgb(216, 10, 10);
+    text-shadow: .5px .5px white;
+}
+
+a:hover, a:focus {
+    color: white;
 }
 
 label {
     font-size: 1.5em;
+    background-color: black;
+    border: double white 5px;
 }
 
 .game-search {
@@ -31,11 +61,22 @@ label {
 
 .search-text {
     margin: 1rem auto;
+    border: double black 5px;
 }
 
 .search-text, .search-submit {
     min-width: 20%;
     text-align: center;
+}
+
+.search-submit {
+    border: double white 5px;
+    background-color: black;
+    color: white;
+}
+
+.search-submit:hover, .search-submit:focus {
+    background-color: red;
 }
 
 .results-box {
@@ -47,9 +88,14 @@ label {
     width: 95%;
 }
 
+.img-info-box {
+    text-align: center;
+}
+
 .img-box {
     width: 35%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .results-img {
@@ -59,6 +105,10 @@ label {
 .info-box {
     width: 80%;
     overflow: scroll;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgb(100, 97, 97);
+    border: double red 3px;
 }
 
 .hide-me {
