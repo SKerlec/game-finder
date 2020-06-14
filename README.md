@@ -2,7 +2,7 @@
 [Live Version Here](https://skerlec.github.io/game-finder/)
 
 ## Description:
-* This is a simple app meant to search for information on video games.
+* This is a simple app meant to search for information on video games using the GiantBomb API.
 
 ## How Does It Work?
 * All you have to do is type the name of the game you'd like to research and press submit.
