@@ -4,7 +4,7 @@
 
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.897);
 }
 
@@ -90,16 +90,15 @@ label {
 }
 
 .results-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin: 2rem auto;
     width: 95%;
 }
 
 .img-info-box {
     text-align: center;
+    margin: 0 auto;
 }
 
 .img-box {
@@ -110,15 +109,26 @@ label {
 
 .results-img {
     max-width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .info-box {
-    width: 85%;
-    overflow: scroll;
-    margin: 0 auto;
-    padding: .75rem;
+    display: inline-block;
+    width: 90%;
+    overflow-y: scroll;
+    margin: auto;
+    padding: 2rem;
     background-color: rgb(100, 97, 97);
     border: double red 3px;
+}
+
+.info-box img {
+    width: 40%;
+    text-align: center;
+}
+
+.info-box figure {
+    display: inline;
 }
 
 .hide-me {
