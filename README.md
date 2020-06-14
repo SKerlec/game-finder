@@ -14,3 +14,9 @@
 
 #### After Search:
 ![alt text](search-img.png)
+
+## Technologies Used:
+* HTML
+* CSS
+* JaveScript
+* jQuery
